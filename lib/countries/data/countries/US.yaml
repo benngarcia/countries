@@ -41,7 +41,7 @@ US:
   nationality: American
   number: '840'
   postal_code: true
-  postal_code_format: "(\\d{5})(?:[ \\-](\\d{4}))?"
+  postal_code_format: "/^\d{5}(-\d{4})?$/"
   region: Americas
   start_of_week: sunday
   subregion: Northern America
